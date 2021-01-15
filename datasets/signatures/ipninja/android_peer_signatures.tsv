@@ -1,0 +1,17 @@
+logs.ipninja.io string/name high
+logs.ipninjasdk.io string/domain high
+com.ipninja.sdk.receivers.BroadcastBootOnly string/receiver high
+com.ipninja.sdk.PushService string/service high
+com.ipninja.sdk.LongRunningTask string/service high
+com.ipninja.sdk.SettingsActivity string/activity high
+com.ipninja.sdk.receivers.ChargingReceiver string/receiver high
+com/ipninja/sdk/receivers/BroadcastBootOnly string/receiver high
+com/ipninja/sdk/PushService string/service high
+com/ipninja/sdk/LongRunningTask string/service high
+com/ipninja/sdk/SettingsActivity string/activity high
+com/ipninja/sdk/receivers/ChargingReceiver string/receiver high
+exitnode01.com string/domain high
+03july.exitnode01.com string/domain high
+ipninja string/name low
+ipninja.io string/domain low
+ipninjasdk.io string/domain low

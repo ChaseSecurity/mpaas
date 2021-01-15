@@ -1,0 +1,4 @@
+oxylabs.io string/domain low
+oxylabs.io/legal/eula string/url high
+pr.oxylabs.io string/domain high
+oxylabs.io/legal/privacy-policy string/url high
