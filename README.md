@@ -34,21 +34,22 @@ In our detection, only apks matched high-confidence signatures were counted.
 
 **Proxy Programs**.
 [final_proxy_apks.json](/datasets/final_proxy_apks.json) lists the detected apks along with its metadata. Below shows an example along with comments.
-```json
+```bash
 {
-    # the date when this apk was captured
+    // The date when this apk was captured
     "date": null,
-    # sha256 hash value for the apk payload
+    // SHA256 hash value for the apk payload
     "id": "3b2bab7ad955d2a71a774e3d269fe6e868dad01ddd8a4c1ec2d4f3e3791214ac",
-    # You can ignore this field since it is the unique name we used to store the apk locally 
+    // You can ignore this field since it is the unique name we used to store the apk locally 
     "name": "com.wGSTRegistrationfree_7921336_1980-01-01_1214ac.apk",
-    # the Android app id
+    // The corresponding Android app id
     "pkg_id": "com.wGSTRegistrationfree_7921336",
-    # providers from which this apk has integrated the respective proxy SDKs
-    # An apk can integrate multiple proxy SDKs from different proxy providers
+    // Providers from which this apk has integrated the respective proxy SDKs
+    // An apk can integrate multiple proxy SDKs from different proxy providers
+    "proxy_providers": [
         "monkeysocks.net"
     ],
-    # Where this apk was downloaded from
+    // Where this apk was downloaded from
     "sources": [
         "androzoo"
     ]
