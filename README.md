@@ -56,4 +56,4 @@ In our detection, only apks matched high-confidence signatures were counted.
 }
 ```
 ## Source code
-We are preparing the source code for release, and will update here once it is ready.
+The script suite for running proxy apps as Docker containers are provided as a separate Github repository (https://github.com/ChaseSecurity/rpaas_emulator). However, one thing to note, as the Android SDKs keep evolving, this script suite are subject to minor changes so as to keep compatible with the latest Android SDK versions as well as apps developed upon these SDKs.
